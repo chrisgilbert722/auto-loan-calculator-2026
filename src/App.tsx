@@ -48,7 +48,7 @@ function App() {
         <AdContainer slotId="native-slot-placeholder" sticky={false} />
 
         {/* 6) BREAKDOWN TABLE */}
-        <BreakdownTable result={result} />
+        <BreakdownTable result={result} loanTermMonths={values.loanTermMonths} />
 
         {/* 7) SEO TEXT */}
         <SEOText />
